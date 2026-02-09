@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syndi by The Syndicate</title>
+
+  <style>
+    :root {
+      --bg: #0b0b0e;
+      --fg: #f5f5f7;
+      --muted: #9a9aa3;
+      --accent: #6cf2c2;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+
+    .tagline {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .accent {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .widget-wrap {
+      margin: 20px 0;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.75rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Syndi</h1>
+    <div class="tagline">
+      by <span class="accent">The Syndicate</span><br />
+      Invest in Exponential Individuals
+    </div>
+
+    <div class="widget-wrap">
+      <elevenlabs-convai agent-id="agent_1801kgy11rxreg8rpgqwad6c92jj"></elevenlabs-convai>
+    </div>
+
+    <footer>
+      Follow <a href="https://x.com/attractfund1ng" target="_blank">@attractfund1ng</a><br />
+      Author: blockface.btc<br />
+      Headhunter launching startups with Exponent Labs LLC
+    </footer>
+  </div>
+
+  <script
+    src="https://unpkg.com/@elevenlabs/convai-widget-embed"
+    async
+    type="text/javascript">
+  </script>
+</body>
+</html>
